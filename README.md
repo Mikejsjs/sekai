@@ -1,35 +1,29 @@
-# Vue.js
+This template should help get you started developing with Vue 3 in Vite.
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+## Customize configuration
 
-## Deploy Your Own
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-Deploy your own Vue.js project with Vercel.
+## Project Setup
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
-
-_Live Example: https://vue-template.vercel.app_
-
-## Running Locally
-
-```
-yarn install
+```sh
+npm install
 ```
 
-#### Compile and hot-reload for development
+### Compile and Hot-Reload for Development
 
-```
-yarn serve
-```
-
-#### Compile and minify for production
-
-```
-yarn build
+```sh
+npm run dev
 ```
 
-#### Lint and fix files
+### Compile and Minify for Production
 
+```sh
+npm run build
 ```
-yarn lint
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
 ```
